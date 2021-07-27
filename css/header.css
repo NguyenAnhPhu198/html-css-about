@@ -1,0 +1,40 @@
+/*SECTION TOP-BAR*/
+.top-bar{
+    background-color: deeppink;
+    padding: 1rem 0;
+
+}
+/* LIST */
+.top-bar_social-list{
+    list-style-type: none; 
+    display: flex;
+    justify-content: flex-start;  
+    align-content: center;
+    margin: 0px;
+}
+.top-bar_social-list >li{
+    margin-right: 20px;
+    
+   
+}
+.top-bar_social-list > li > a {
+    color: white;
+}
+
+/* LINK */
+.top-bar_link{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-bar_link > a{
+    color: white;
+}
+.top-bar_link > span{
+    color: white;
+    padding: 0 1rem;
+}
+.action{
+    color: rgb(0, 47, 255);
+    text-decoration: blue solid 2px;
+    background-color: yellow;
+}
